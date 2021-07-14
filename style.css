@@ -1,0 +1,35 @@
+body{
+    background-image: URL("biblioteca/imagens/pexels-rachel-claire-5864731.jpg");
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 393px;
+    background: wheat;
+    border-radius: 10%;
+    position: absolute;
+    top: 20%; 
+}
+#box:hover{
+    transform: scale(1.1);
+}
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+#esqueceuSenha:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
